@@ -1,5 +1,10 @@
 # Ayudas para traducir archivos con desafios e instrucciones de FreeCodeCamp.com
 
+Primero puede instalar estas ayudas como módulo de su clon de 
+las fuentes de FreeCodeCamp con:
+```
+  git submodule add https://github.com/vtamara/fcc_trad
+```
 
 Para traducir rápido es conveniente emplear Google Toolkit Translator.
 
@@ -17,6 +22,13 @@ Google Translator Toolkit.
 Los errores más comunes que introduce Google Translator Kit son: 
 * separar las entidades HTML y las etiquetas de cierre
 * intercambiar ." por ".
+
+Por eso vale la pena comenzar la traducción haciendo algunos remplazos:
+* ' </ code>' por '</code>'
+* '<code> ' por '<code>'
+* '"Namees"' por '"nameEs"'
+* '"Descriptiones"' por '"descriptionEs"'
+* '\ "' por '\"'
 
 Por eso es bueno traducir con cuidado estas partes y después validar el
 JSON resultante por ejemplo con  http://jsonlint.com/
