@@ -7,7 +7,7 @@ if (process.argv.length != 3) {
   console.log("Primer parámetro debería ser ruta absoluta del archivo por traducir");
   process.exit(1);
 }
-j = require(process.argv2);
+j = require(process.argv[2]);
 if (typeof j.challenges == 'undefined') {
   console.log("Debería ser un archivo json del directorio seed/challenges");
   process.exit(1);
