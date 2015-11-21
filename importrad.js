@@ -10,13 +10,14 @@ if (process.argv.length != 4) {
 
 var path = require('path')
 var ruta = path.resolve(process.argv[2])
-var j = require(process.argv[2])
+var j = require(ruta)
 if (typeof j.challenges == 'undefined') {
   console.log("Primer parámetro debe ser un archivo semilla json " +
       "(de seed/challenges)")
   process.exit(1)
 }
-var aes = require(process.argv[3]);
+var rutaes = path.resolve(process.argv[3])
+var aes = require(rutaes);
 if (typeof aes.challenges == 'undefined') {
   console.log("El segundo parámetro debe ser un archivo json con " + 
       "traduciones a español por insertar/actualizar")
