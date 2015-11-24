@@ -9,7 +9,7 @@ Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documen
 
 # 1. Canal de chat 
 
-Únete a nuestro activo canal de chat para revisar el estado de las traducciones, así como para solicitar y dar ayuda. [https://gitter.im/AlexTrapp/FreeCodeCampEspa%C3%B1ol ]
+Únete a nuestro activo canal de chat para revisar el estado de las traducciones, así como para solicitar y dar ayuda. https://gitter.im/AlexTrapp/FreeCodeCampEspa%C3%B1ol
 
 
 # 2. Procedimiento técnico para hacer una traducción
