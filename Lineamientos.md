@@ -23,8 +23,8 @@ git clone --depth=1 https://github.com/freecodecamp/freecodecamp.git freecodecam
 ```sh
 git checkout -b add/ES-translation-basic-javascript
 ```
-*  Ubica el archivo en el directorio ```seeds/challenges``` de tu copia local y editalo añadiendo texto en las entradas "nameES" y "descriptionES" de los desafios no traducidos.    Si piensas que no puedes continuar deja un comentario en el mismo problema (*issue*) indicándolo para que otra persona pueda continuar donde quedaste . 
-* Cuando termines o cuando hayas avanzado hasta donde puedas, notifica los cambios localmente (*commit*) en inglés y empujalos (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
+*  Ubica el archivo en el directorio ```seeds/challenges``` de tu copia local y editalo añadiendo texto en las entradas "nameES" y "descriptionES" de los desafios no traducidos.    Si piensas que no puedes continuar deja un comentario en el mismo problema indicándolo para que otra persona pueda continuar donde quedaste . 
+* Cuando termines o cuando hayas avanzado hasta donde puedas, notifica los cambios (*commit*) con una descripción en inglés y empujalos (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
 ```sh
 git commit -m "5 challenges translated" seed/challenges/basic-javascript.json 
 git push origin add/ES-translation-basic-javascript
