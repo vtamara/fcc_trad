@@ -57,18 +57,6 @@ node fcc_trad/importrad.js seed/challenges/jquery.json /tmp/trad.json > /tmp/int
 Después se puede revisar o validar nuevamente el archivo generado 
 ```/tmp/integrado.json``` para finalmente remplazar el archivo semilla inicial.
 
-## Coordinando traducción usando el sistema de seguimiento de problemas (issues) en github 
-
-Cuando comienzas a traducir una sección, por favor revisa si alguien ya está
-traduciendo en el problema que le corresponde en 
-  https://github.com/FreeCodeCamp/FreeCodeCamp/issues
-Si nadie está traduciendo agrega un comentario como "Working on it".
-
-Una vez completes la traducción envia la solicitud de cambio (Pull Request)
-a FCC referenciando el número de problema que cierra, por ejemplo en el
-título de la solicitud de cambjio incluye "closes #4549" siendo 4549 el 
-número de problema que correspode a la sección que se traduce.
-
 ## Creación de descripciones para problemas de traducción
 
 Para crear la descripción de un problema de traducción issue con el avance 
