@@ -1,4 +1,4 @@
-# Ayudas para traducir archivos con desafios e instrucciones de FreeCodeCamp
+# Ayudas para traducir archivos con desafios e instrucciones de FreeCodeCamp usando Google Translator Toolkit
 
 ## Estas ayudas como módulo
 
