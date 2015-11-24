@@ -14,14 +14,22 @@ Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documen
 
 # 2. Procedimiento técnico para hacer una traducción
 
-*  Una vez tengas git en tu computador, bifurca (*fork*) el repositorio de FreeCodeCamp y clónalo en tu computador ([ayuda completa](https://help.github.com/articles/fork-a-repo/)).
+*  Una vez tengas git en tu computador, bifurca (*fork*) el repositorio de FreeCodeCamp y clónalo en tu computador ([ayuda completa](https://help.github.com/articles/fork-a-repo/)):
 ```sh
 git clone --depth=1 https://github.com/freecodecamp/freecodecamp.git freecodecamp
 ```
-*  Dirígete a la sección de problemas (*issues*) del repositorio oficial y busca spanish (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation+spanish) ). Ubica un problema en el que nadie está trabajando -o que lleva más de 2 semanas sin reportar avance-.  Podrás tomarlo añadiendo un comentario como “*Trabajando en este - Working on it*”.
-*  En tu bifurcación del repositorio, crea una rama con un nombre como “add/ES-translation-XXX” donde XXX es el nombre del archivo en el que vas a trabajar.  ([ayuda completa](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches) )
-*  Si piensas que no puedes continuar deja un comentario en el mismo problema (*issue*)indicándolo para que otra persona pueda continuar donde quedaste . 
-*  Cuando termines puedes notificar los cambios  (*commit*), empujarlos (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/) )y después haz una solicitud de cambio (*pull request*) al repositorio principal (ver [ayuda completa](https://help.github.com/articles/creating-a-pull-request/)). En la descripción de tu solicitud de cambio incluye la frase “*closes ###*”, donde ### es el número del problema (*issue*) en el que trabajaste. Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal.
+*  Dirígete a la sección de problemas (*issues*) del repositorio oficial y busca spanish (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation+spanish)). Ubica un problema en el que nadie está trabajando -o que lleva más de 2 semanas sin reportar avance-.  Podrás tomarlo añadiendo un comentario como “*Trabajando en este - Working on it*”.
+*  En tu bifurcación del repositorio, crea una rama con un nombre como “add/ES-translation-XXX” donde XXX es el nombre del archivo en el que vas a trabajar.  ([ayuda completa](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)):
+```sh
+git checkout -b add/ES-translation-basic-javascript
+```
+*  Ubica el archivo en el directorio ```seeds/challenges``` de tu copia local y editalo añadiendo texto en las entradas "nameES" y "descriptionES" de los desafios no traducidos.    Si piensas que no puedes continuar deja un comentario en el mismo problema (*issue*) indicándolo para que otra persona pueda continuar donde quedaste . 
+* Cuando termines o cuando hayas avanzado hasta donde puedas, notifica los cambios localmente (*commit*) en inglés y empujalos (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
+```sh
+git commit -m "5 challenges translated" seed/challenges/basic-javascript.json 
+git push origin add/ES-translation-basic-javascript
+```
+*  Después desde la página web de tu bifurcación en github.com, haz una solicitud de cambio (*pull request*) a la rama ```staging``` del repositorio principal (ver [ayuda completa](https://help.github.com/articles/creating-a-pull-request/)). En la descripción de tu solicitud de cambio incluye la frase “*closes ###*”, donde ### es el número del problema en el que trabajaste. Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal.
 
 Otros traductores podrán ver tus cambios y hacer comentarios, los cuales puedes adoptar, o utilizar para hacer correcciones y volver a notificar y empujar. 
 
