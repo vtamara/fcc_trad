@@ -1,6 +1,6 @@
 # Lineamientos para traducir FreeCodeCamp
 
-Vladimir Támara Patiño (vtamara). [vtamara@pasosdeJesus.org](mailto:vtamara@pasosdeJesus.org)
+Vladimir Támara Patiño (vtamara). [vtamara@pasosdeJesus.org](mailto:vtamara@pasosdeJesus.org) Dominio Público de acuerdo a legislación colombiana.
 
 Juan Martínez (justinian336). [jnelsonm64@gmail.com](mailto:jnelsonm64@gmail.com)
 
