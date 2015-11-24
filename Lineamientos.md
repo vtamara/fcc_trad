@@ -15,7 +15,7 @@ Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documen
 # 2. Procedimiento técnico para hacer una traducción
 
 1.  Una vez tengas git en tu computador, bifurca (*fork*) el repositorio de FreeCodeCamp y clónalo en tu computador.
-    ```
+```sh
 git clone --depth=1 https://github.com/freecodecamp/freecodecamp.git freecodecamp
 ```
 2.  Dirígete a la sección de problemas (*issues*) del repositorio oficial y busca spanish (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation+spanish). Ubica un problema en el que nadie está trabajando -o que lleva más de 2 semanas sin reportar avance-.  Podrás tomarlo añadiendo un comentario como “*Trabajando en este - Working on it*”.
