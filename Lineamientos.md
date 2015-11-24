@@ -72,3 +72,4 @@ Ver el resultado de tus esfuerzos mientras progresas te permite mantener la moti
 * Documentación inicial de las fuentes de FreeCodeCamp. https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/README.md
 * Localización de GNOME a español. https://mail.gnome.org/archives/gnome-es-list/2011-October/pdfm6xxph1jsZ.pdf
 * Pull Request Contribute https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Pull-Request-Contribute
+* Ayudas para traducir archivos con desafios e instrucciones de FreeCodeCamp usando Google Translator Toolkit.  https://github.com/vtamara/fcc_trad/blob/master/README.md
