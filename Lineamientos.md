@@ -40,7 +40,7 @@ Otra forma en la que puedes colaborar es revisando y haciendo comentarios en los
 
 # 3. Generalidades sobre la traducción
 
-Preferimos traducir con “tu” en lugar de “usted” y empleando términos ya usados en el español, dejando posibilidad de introducir nuevos términos preferiblemente de acuerdo a los lineamientos del capítulo 2 de [https://mail.gnome.org/archives/gnome-es-list/2011-October/pdfm6xxph1jsZ.pdf]
+Preferimos traducir con “tu” en lugar de “usted” y empleando términos ya usados en el español, dejando posibilidad de introducir nuevos términos preferiblemente de acuerdo a los lineamientos del capítulo 2 de https://mail.gnome.org/archives/gnome-es-list/2011-October/pdfm6xxph1jsZ.pdf
 
 
 # 4. Glosario
@@ -55,17 +55,17 @@ Preferimos traducir con “tu” en lugar de “usted” y empleando términos y
 *   waypoint: punto de referencia
 
 Si deseas opinar o proponer traducciones para nuevos términos, emplea el canal de chat.  Propón el término y la traducción, si no hay consenso haremos votación. Los términos sometidos a votación hasta el momento pueden verse en: 
-[https://docs.google.com/spreadsheets/d/1c60Sl4MAAsZ7biCPgur7A4aVqhErIfwrE1SulPqbOGo/edit#gid=0]
+https://docs.google.com/spreadsheets/d/1c60Sl4MAAsZ7biCPgur7A4aVqhErIfwrE1SulPqbOGo/edit#gid=0
 
 
 # 5. Ayudas para traducir empleando Google Translator Toolkit
 
-Si quieres automatizar un poco más el procedimiento de traducción utilizando Google Translator Toolkit puede servirte: [https://github.com/vtamara/fcc_trad]
+Si quieres automatizar un poco más el procedimiento de traducción utilizando Google Translator Toolkit puede servirte: https://github.com/vtamara/fcc_trad
 
 
 # 6. Instancia de prueba para ver lo avanzado en la traducción a español
 
-Ver el resultado de tus esfuerzos mientras progresas te permite mantener la motivación. Por esta razón, se ha creado una instancia de prueba de la versión en español de FreeCodeCamp para que veas cómo luce la traducción incluyendo los últimos cambios que se han fusionado. Si deseas el detalle de cada desafío traducido hasta el momento, suscríbete e ingresa a: [https://defensor.info:3000/map]
+Ver el resultado de tus esfuerzos mientras progresas te permite mantener la motivación. Por esta razón, se ha creado una instancia de prueba de la versión en español de FreeCodeCamp para que veas cómo luce la traducción incluyendo los últimos cambios que se han fusionado. Si deseas el detalle de cada desafío traducido hasta el momento, suscríbete e ingresa a: https://defensor.info:3000/map
 
 # 7. Referencias
 
