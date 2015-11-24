@@ -39,8 +39,8 @@ pero si la de copiar y pegar).
 Para corregir algunos de los errores introducidos por Google Translator Kit 
 conviene hacer las siguientes sustituciones (Ctrl+F en la interfaz
 de Google Translator Kit):
-* ' </ code>' por '</code>'
-* '<code> ' por '<code>'
+* ' </ code>' por '&lt;/code>'
+* '&lt;code> ' por '&lt;code>'
 * '"Namees"' por '"nameEs"'
 * '"Descriptiones"' por '"descriptionEs"'
 * '\ "' por '\"'
