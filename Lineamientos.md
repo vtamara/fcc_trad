@@ -4,7 +4,7 @@ Vladimir Támara Patiño (vtamara). [vtamara@pasosdeJesus.org](mailto:vtamara@pa
 
 Juan Martínez (justinian336). [jnelsonm64@gmail.com](mailto:jnelsonm64@gmail.com)
 
-Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documento es lectura recomendada para todos aquellos que deseen colaborar en este esfuerzo colectivo para dar acceso a FreeCodeCamp a más personas para quienes el idioma es una barrera importante.
+Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documento es lectura recomendada para todos aquellos que deseen colaborar en este esfuerzo colectivo para dar acceso a FreeCodeCamp a más hispanohablantes.
 
 
 # 1. Canal de chat 
@@ -14,7 +14,7 @@ Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documen
 
 # 2. Procedimiento técnico para hacer una traducción
 
-1.  Bifurca (*fork*) el repositorio de FreeCodeCamp y clónalo en tu computador, e inicializa Git en el directorio donde lo clonaste. 
+1.  Utilizando git bifurca (*fork*) el repositorio de FreeCodeCamp y clónalo en tu computador.
 2.  Dirígete a la sección de problemas (*issues*) del repositorio oficial que están relacionados con la traducción al español. Si nadie está trabajando en alguno -o lleva más de 2 semanas sin reportar avance- puedes tomarlo y añadir un comentario como “*Trabajando en este - Working on it*”.
 3.  En tu bifurcación del repositorio, crea una rama con un nombre como “add/ES-translation-XXX” donde XXX es el nombre del archivo en el que vas a trabajar.  Si piensas que no puedes continuar deja un comentario indicándolo para que otra persona pueda continuar donde quedaste. 
 4.  Cuando termines puedes notificar los cambios  (*commit*), empujarlos (*push*) a tu bifurcación y después hacer una solicitud de cambio (*pull request*) al repositorio principal. En la descripción de tu solicitud de cambio incluye la frase “*closes ###*”, donde ### es el número del problema (*issue*) en el que trabajaste. Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal.
