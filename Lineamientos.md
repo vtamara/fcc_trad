@@ -24,9 +24,9 @@ git clone --depth=1 https://github.com/freecodecamp/freecodecamp.git freecodecam
 git checkout -b add/ES-translation-basic-javascript
 ```
 *  Ubica el archivo en el directorio ```seeds/challenges``` de tu copia local y editalo añadiendo texto en las entradas "nameES" y "descriptionES" de los desafios no traducidos.    Si piensas que no puedes continuar deja un comentario en el mismo problema indicándolo para que otra persona pueda continuar donde quedaste . 
-* Cuando termines o cuando hayas avanzado hasta donde puedas, notifica los cambios (*commit*) con una descripción en inglés y empujalos (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
+* Cuando termines notifica los cambios (*commit*) con una descripción en inglés y empujalos (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
 ```sh
-git commit -m "5 challenges translated" seed/challenges/basic-javascript.json 
+git commit -m "Challenges translated" seed/challenges/basic-javascript.json 
 git push origin add/ES-translation-basic-javascript
 ```
 *  Después desde la página web de tu bifurcación en github.com, haz una solicitud de cambio (*pull request*) a la rama ```staging``` del repositorio principal (ver [ayuda completa](https://help.github.com/articles/creating-a-pull-request/)). En la descripción de tu solicitud de cambio incluye la frase “*closes ###*”, donde ### es el número del problema en el que trabajaste. Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal.
