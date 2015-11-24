@@ -57,3 +57,8 @@ Si quieres automatizar un poco más el procedimiento de traducción utilizando G
 # 6. Instancia de prueba para ver lo avanzado en la traducción a español
 
 Ver el resultado de tus esfuerzos mientras progresas te permite mantener la motivación. Por esta razón, se ha creado una instancia de prueba de la versión en español de FreeCodeCamp para que veas cómo luce la traducción incluyendo los últimos cambios que se han fusionado. Si deseas el detalle de cada desafío traducido hasta el momento, suscríbete e ingresa a: [https://defensor.info:3000/map]
+
+# 7. Referencias
+
+* Documentación inicial de las fuentes de FreeCodeCamp. https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/README.md
+* Localización de GNOME a español. https://mail.gnome.org/archives/gnome-es-list/2011-October/pdfm6xxph1jsZ.pdf
