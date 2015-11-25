@@ -40,7 +40,7 @@ Para corregir algunos de los errores introducidos por Google Translator Kit
 conviene hacer las siguientes sustituciones (Ctrl+F en la interfaz
 de Google Translator Kit):
 * ' </ code>' por '&lt;/code>'
-* '&lt; code> ' por '&lt;code>'
+* '&lt;code> ' por '&lt;code>'
 * '"Namees"' por '"nameEs"'
 * '"Descriptiones"' por '"descriptionEs"'
 * '\ "' por '\"'
