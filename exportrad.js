@@ -1,7 +1,7 @@
 // Extrae ejercicios que no se han traducido a español para facilitar
 // su traducción (por ejemplo con Google Translator Toolkit) y su posterior
 // reincorporación.
-// Dominio público. 2015. vtamara@pasosdeJesus.org
+// Dominio público de acuerdo a la legislación colombiana. 2015. vtamara@pasosdeJesus.org
 
 if (process.argv.length != 3) {
   console.log("Primer parámetro debería ser ruta absoluta del archivo por traducir")
