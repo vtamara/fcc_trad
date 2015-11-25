@@ -1,5 +1,5 @@
 // Reincorpora ejercicios traducidos
-// Dominio público. 2015. vtamara@pasosdeJesus.org
+// Dominio público de acuerdo a la legislación colombiana. 2015. vtamara@pasosdeJesus.org
 
 if (process.argv.length != 4) {
   console.log("Primer parámetro debe ser ruta absoluta del archivo semilla, " +
