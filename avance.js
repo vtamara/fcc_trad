@@ -1,5 +1,5 @@
 // Extrae avance en traducción para incluir en issues de FreeCodeCamp
-// Dominio público. 2015. vtamara@pasosdeJesus.org
+// Dominio público de acuerdo a legislación colombiana. 2015. vtamara@pasosdeJesus.org
 
 if (process.argv.length != 3) {
   console.log("Primer parámetro debería ser ruta absoluta del archivo por revisar");
