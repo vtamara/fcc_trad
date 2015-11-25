@@ -58,9 +58,9 @@ Si deseas opinar o proponer traducciones para nuevos términos, emplea el canal 
 https://docs.google.com/spreadsheets/d/1c60Sl4MAAsZ7biCPgur7A4aVqhErIfwrE1SulPqbOGo/edit#gid=0
 
 
-# 5. Ayudas para traducir empleando Google Toolkit Translator 
+# 5. Ayudas para traducir empleando Google Translator Toolkit 
 
-Si quieres automatizar un poco más el procedimiento de traducción utilizando Google Toolkit Translator puede servirte: https://github.com/vtamara/fcc_trad
+Si quieres automatizar un poco más el procedimiento de traducción utilizando Google Translator Toolkit puede servirte: https://github.com/vtamara/fcc_trad
 
 
 # 6. Instancia de prueba para ver lo avanzado en la traducción a español
@@ -72,4 +72,4 @@ Ver el resultado de tus esfuerzos mientras progresas te permite mantener la moti
 * Documentación inicial de las fuentes de FreeCodeCamp. https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/README.md
 * Localización de GNOME a español. https://mail.gnome.org/archives/gnome-es-list/2011-October/pdfm6xxph1jsZ.pdf
 * Pull Request Contribute https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Pull-Request-Contribute
-* Ayudas para traducir archivos con desafios e instrucciones de FreeCodeCamp usando Google Toolkit Translator. https://github.com/vtamara/fcc_trad/blob/master/README.md
+* Ayudas para traducir archivos con desafios e instrucciones de FreeCodeCamp usando Google Translator Toolkit. https://github.com/vtamara/fcc_trad/blob/master/README.md
