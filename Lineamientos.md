@@ -14,9 +14,11 @@ Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documen
 
 # 2. Procedimiento técnico para hacer una traducción
 
-*  Una vez tengas git en tu computador, bifurca (*fork*) el repositorio de FreeCodeCamp y clónalo en tu computador ([ayuda completa](https://help.github.com/articles/fork-a-repo/)):
+* Instala git en tu computador y crea una cuenta en github
+* Desde tu cuenta en github.com bifurca (*fork*) el repositorio de FreeCodeCamp (https://github.com/FreeCodeCamp/FreeCodeCamp), de manera que verás en tu cuenta un directorio FreeCodeCamp
+* Clona tu bifuración en tu computador (en el siguiente ejemplo remplaza micuenta por tu cuenta en github [ayuda completa](https://help.github.com/articles/fork-a-repo/)):
 ```sh
-git clone --depth=1 https://github.com/freecodecamp/freecodecamp.git freecodecamp
+git clone --depth=1 https://github.com/micuenta/FreeCodeCamp.git freecodecamp
 ```
 *  Dirígete a la sección de problemas (*issues*) del repositorio oficial y busca spanish (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation+spanish). Ubica un problema en el que nadie está trabajando -o que lleva más de 2 semanas sin reportar avance-.  Podrás tomarlo añadiendo un comentario como “*Trabajando en este - Working on it*”.
 *  En tu bifurcación del repositorio, crea una rama con un nombre como “add/ES-translation-XXX” donde XXX es el nombre del archivo en el que vas a trabajar.  ([ayuda completa](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)):
@@ -24,12 +26,12 @@ git clone --depth=1 https://github.com/freecodecamp/freecodecamp.git freecodecam
 git checkout -b add/ES-translation-basic-javascript
 ```
 *  Ubica el archivo JSON en el directorio ```seeds/challenges``` de tu copia local. Ubica uno a uno los desafios no traducidos y modificalo agregando el nombre del desafio en ```"nameES"``` y su descripción en ```"descriptionES"```. Es importante que mantengas bien la sintaxis del JSON, puedes verificarlo instalando ```node.js``` y pasando el archivo JSON por el interprete, por ejemplo ```node seeds/challenges/basic-javascript.json```. También podrás verificar la sintaxis copiando y pegando el contenido del archivo en http://jsonlint.com.    Si piensas que no puedes continuar deja un comentario en el mismo problema indicándolo para que otra persona pueda continuar donde quedaste . 
-* Cuando termines notifica los cambios (*commit*) con una descripción en inglés y empujalos (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
+* Cuando termines consigna los cambios (*commit*) con una descripción en inglés, tras la descripción y como parte del mensaje de commit, añade "Closes #yyyy" donde yyyy es el número de problema asignado (Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal.).   Después empuja los cambios (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
 ```sh
-git commit -m "Challenges translated" seed/challenges/basic-javascript.json 
+git commit -m "Challenges of Basic Javascript translated. Closes #4234" seed/challenges/basic-javascript.json 
 git push origin add/ES-translation-basic-javascript
 ```
-*  Después desde la página web de tu bifurcación en github.com, haz una solicitud de cambio (*pull request*) a la rama ```staging``` del repositorio principal (ver [ayuda completa](https://help.github.com/articles/creating-a-pull-request/)). En la descripción de tu solicitud de cambio incluye la frase “*closes ###*”, donde ### es el número del problema en el que trabajaste. Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal.
+*  Después desde la página web de tu bifurcación en github.com, haz una solicitud de cambio (*pull request*) a la rama ```staging``` del repositorio principal (ver [ayuda completa](https://help.github.com/articles/creating-a-pull-request/)). Elimina la palabra "Closes #yyyy" del título de la solicitud de cambio, y muevela a la descripción de la solicitud de cambio.  
 
 Otros traductores podrán ver tus cambios y hacer comentarios, los cuales puedes adoptar, o utilizar para hacer correcciones y volver a notificar y empujar. 
 
