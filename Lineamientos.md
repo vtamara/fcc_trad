@@ -14,7 +14,7 @@ Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documen
 
 # 2. Procedimiento técnico para hacer una traducción
 
-* Instala git en tu computador y crea una cuenta en github
+* Instala git en tu computador y crea una cuenta en github.com 
 * Desde tu cuenta en github.com bifurca (*fork*) el repositorio de FreeCodeCamp (https://github.com/FreeCodeCamp/FreeCodeCamp), de manera que verás en tu cuenta un directorio FreeCodeCamp
 * Clona tu bifuración en tu computador (en el siguiente ejemplo remplaza micuenta por tu cuenta en github [ayuda completa](https://help.github.com/articles/fork-a-repo/)):
 ```sh
