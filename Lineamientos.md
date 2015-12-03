@@ -18,7 +18,8 @@ Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documen
 * Desde tu cuenta en github.com bifurca (*fork*) el repositorio de FreeCodeCamp (https://github.com/FreeCodeCamp/FreeCodeCamp), de manera que verás en tu cuenta un directorio FreeCodeCamp
 * Clona tu bifuración en tu computador (en el siguiente ejemplo remplaza micuenta por tu cuenta en github [ayuda completa](https://help.github.com/articles/fork-a-repo/)):
 ```sh
-git clone --depth=1 https://github.com/micuenta/FreeCodeCamp.git freecodecamp
+git clone --depth=1 https://github.com/micuenta/FreeCodeCamp.git
+cd FreeCodeCamp
 ```
 *  Dirígete a la sección de problemas (*issues*) del repositorio oficial y busca spanish (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation+spanish). Ubica un problema en el que nadie está trabajando -o que lleva más de 2 semanas sin reportar avance-.  Podrás tomarlo añadiendo un comentario como “*Trabajando en este - Working on it*”.
 *  En tu bifurcación del repositorio, crea una rama con un nombre como “add/ES-translation-XXX” donde XXX es el nombre del archivo en el que vas a trabajar.  ([ayuda completa](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)):
