@@ -1,4 +1,4 @@
-# Lineamientos para traducir FreeCodeCamp a Español
+# Recomendaciones para traducir FreeCodeCamp a Español
 
 Vladimir Támara Patiño (vtamara). [vtamara@pasosdeJesus.org](mailto:vtamara@pasosdeJesus.org) Dominio Público de acuerdo a legislación colombiana.
 
