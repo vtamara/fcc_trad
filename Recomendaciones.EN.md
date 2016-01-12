@@ -47,6 +47,7 @@ Another way to collaborate in the translation effort is by verifying the transla
 # 3. General guidelines
 
 * Try not to be too formal yet not too casual, just to keep things friendly.
+* In order to make contents more understandable for native speakers of your target language (think of those who don't speak english), translate as much as you can, try to use a word in english only if it is already widely used in the countries where your target language is spoken.
 
 
 # 4. Glosary
