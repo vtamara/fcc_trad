@@ -12,7 +12,7 @@ Thank you so much for your interest in translating FreeCodeCamp. Reading this do
 We recommend you to create a chat room in gitter.im exclusive for the language that you're working on, and to communicate there in that language. There everyone can ask questions regarding the status of the translation and coordinate. Help regarding the technical process should also be provided in the chat room. Many people want to collaborate, but get intimidated by the learning curve of Git. While it's not difficult to get started, it's always nice to have someone to help you if you get stuck.
 Many users go to the official translators chat room of FreeCodeCamp at https://gitter.im/FreeCodeCamp/Translators . You can go there to recruit new translators for your language every once in a while.
 
-If you find it useful translate this insturctions and adapt them for your translation team (see for example original in spanish at: https://github.com/vtamara/fcc_trad/blob/master/Recomendaciones.md)
+If you find it useful translate this instructions to your language and adapt them for your translation team (see for example original in spanish at: https://github.com/vtamara/fcc_trad/blob/master/Recomendaciones.md)
 
 
 # 2. Technical procedure to create a translated file
