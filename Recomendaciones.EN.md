@@ -4,12 +4,12 @@ Vladimir Támara Patiño (vtamara). [vtamara@pasosdeJesus.org](mailto:vtamara@pa
 
 Juan Martínez (justinian336). [jnelsonm64@gmail.com](mailto:jnelsonm64@gmail.com)
 
-Thank you so much for your interest in translating FreeCodeCamp. Reading this document is a recommended for anyone who wishes to participate in this collective effort to bring FreeCodeCamp to more and more people all around the world.
+Thank you so much for your interest in translating FreeCodeCamp. Reading this document is recommended for anyone who wishes to participate in this collective effort to bring FreeCodeCamp to more and more people all around the world.
 
 
 # 1. Chat room
 
-We recommend you to create a chat room in gitter.im exclusive for the language that you're working on. That way, everyone can ask questions regarding the status of the translation and coordinate. Help regarding the technical process should also be provided in the chat room. Many people want to collaborate, but get intimidated by the learning curve of Git. While it's not difficult to get started, it's always nice to have someone to help you if you get stuck.
+We recommend you to create a chat room in gitter.im exclusive for the language that you're working on, and to communicate there in that language. There everyone can ask questions regarding the status of the translation and coordinate. Help regarding the technical process should also be provided in the chat room. Many people want to collaborate, but get intimidated by the learning curve of Git. While it's not difficult to get started, it's always nice to have someone to help you if you get stuck.
 Many users go to the official translators chat room of FreeCodeCamp at https://gitter.im/FreeCodeCamp/Translators . You can go there to recruit new translators for your language every once in a while.
 
 
@@ -22,12 +22,12 @@ Many users go to the official translators chat room of FreeCodeCamp at https://g
 git clone --depth=1 https://github.com/myaccount/FreeCodeCamp.git
 cd FreeCodeCamp
 ```
-*  Now, on GitHub, go to the *issues* section of the official repository and search for the language you wanna work on (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation+spanish). Find an issue that nobody is working on -or that has been left unattended during 2 weeks or more (ask first in the chat room)-.  You can take it by simply adding a comment, such as “*Working on it*”.
+*  Now, on GitHub, go to the *issues* section of the official repository and search for the language you wanna work on (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation). Find an issue that nobody is working on -or that has been left unattended during 2 weeks or more (ask first in the chat room)-.  You can take it by simply adding a comment, such as “*Working on it*”.
 *  In your forked repository, create a *branch* with a name such as “add/LG-translation-XXX” donde LG is the abbreviated name of the language you're working on, and XXX is the name of the file you're going to modify.  ([more help here](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)):
 ```sh
 git checkout -b add/ES-translation-basic-javascript
 ```
-* Find the JSON file in the ```seeds/challenges``` directory in your local copy. Find the challenge of your interest and modify it adding the name of the challenge in ```"nameLG"``` and its description in ```"descriptionLG"```, where "LG" is the language of your choice. It's important to keep the proper syntax of the JSON file. You can verify this by installing ```node.js``` and passing the JSON file to the interpreter. For example: ```node seeds/challenges/basic-javascript.json```. You will also be able to verify the syntax by copying and pasting the content of the file in http://jsonlint.com. If you think that you can't continue for a while with the translation, you can leave a comment on the same issue, indicating that another person should continue. You can push your changes so far so the next person won't duplicate your hard work.
+* Find the JSON file in the ```seeds/challenges``` directory in your local copy. Find the challenge of your interest and modify it by adding the name of the challenge in ```"nameLG"``` and its description in ```"descriptionLG"```, where "LG" is the language of your choice. It's important to keep the proper syntax of the JSON file. You can verify this by installing ```node.js``` and passing the JSON file to the interpreter. For example: ```node seeds/challenges/basic-javascript.json```. You will also be able to verify the syntax by copying and pasting the content of the file in http://jsonlint.com. If you think that you can't continue for a while with the translation, you can leave a comment on the same issue, indicating that another person should continue. You can push your changes so far so the next person won't duplicate your hard work.
 * When you're done, *commit* your changes with a brief description in English (regardless of the language). As a part of the message of the commit, and after the description, add "Closes #yyyy" where yyyy is the number of the issue you're working on (this is convenient because it closes the issue automatically when your change gets merged with the main repository.). Afterwards, *push* the changes to your fork (see [the help](https://help.github.com/articles/pushing-to-a-remote/)):
 ```sh
 git commit -m "Challenges of Basic Javascript translated. Closes #4234" seed/challenges/basic-javascript.json 
