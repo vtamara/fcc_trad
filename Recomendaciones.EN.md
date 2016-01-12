@@ -67,8 +67,9 @@ You may find help automating the translation process by employing the Google Tra
 Seeing the final product as you advance with the translation can help you to stay motivated. That's why it is a good idea to create a test instance of FreeCodeCamp where you can include the most recent changes of the translation of the language you're working on and use FreeCodeCamp including those changes. The following test instance was created for the Spanish version of FreeCodeCamp: https://defensor.info:3000/map
 In order to create a test instance, go through the following steps:
 
-1. Verify with the other translators of the same language you're working on if a test instance has been created before.
-2. If no one has created one (or if you just wanna try on your own)... (@vtamara should include this part)
+1. Verify with the other translators of the same language you're working on if a test instance has been created before
+2. Follow the instructions of https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md be sure you can see a running instance in english
+3. Follow the changes shown in https://github.com/FreeCodeCamp/FreeCodeCamp/commit/d36e33f3938ddd079931a5fb2bc5dc6db37667e5 but instead of ```descriptionEs``` and ```nameEs``` use the keys of your language (e.g ```descriptonFr``` and ```nameFr```)
 
 # 7. References
 
