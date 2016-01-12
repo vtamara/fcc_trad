@@ -59,7 +59,7 @@ Use the chat room for discussing the glosary, so no one will miss anything.
 
 # 5. If you need some help with the Google Translator Toolkit 
 
-If you need some help automating the translation process by employing the Google Translator Toolkit, you can find some help at: https://github.com/vtamara/fcc_trad
+You may find help automating the translation process by employing the Google Translator Toolkit, please see: https://github.com/vtamara/fcc_trad
 
 
 # 6. Creating a test instance of FreeCodeCamp
