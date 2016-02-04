@@ -4,7 +4,7 @@
 // Dominio público de acuerdo a la legislación colombiana. 2015. vtamara@pasosdeJesus.org
 
 if (process.argv.length != 3) {
-  console.log("Primer parámetro debería ser ruta absoluta del archivo por traducir")
+  console.log("Primer parámetro debería ser ruta del archivo por traducir")
   process.exit(1)
 }
 var path = require('path')

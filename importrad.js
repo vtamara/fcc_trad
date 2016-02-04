@@ -2,8 +2,8 @@
 // Dominio público de acuerdo a la legislación colombiana. 2015. vtamara@pasosdeJesus.org
 
 if (process.argv.length != 4) {
-  console.log("Primer parámetro debe ser ruta absoluta del archivo semilla, " +
-      "segundo debe ser ruta absoluta del que tiene " +
+  console.log("Primer parámetro debe ser ruta del archivo semilla, " +
+      "segundo debe ser ruta del que tiene " +
       "las traducciones a español por incorporar/actualizar")
   process.exit(1)
 }
