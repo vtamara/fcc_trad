@@ -11,8 +11,26 @@ Te agradecemos mucho el interés en la traducción de FreeCodeCamp. Este documen
 
 Únete a nuestro activo canal de chat para revisar el estado de las traducciones, así como para solicitar y dar ayuda. https://gitter.im/AlexTrapp/FreeCodeCampEspa%C3%B1ol
 
+# 2. Revisar el trabajo reciente de otro traductor
 
-# 2. Procedimiento técnico para hacer una traducción
+En el canal de chat los traductores suelen enviar enlaces a solicitudes de cambio (pull requests) que han hecho pidiendo revisión de otro par.  Si quieres ayudar en una revisión sigue el enlace que irá a la solicitud de cambio en github.com.  Allí en la pestaña "Files changed" podrás ver los cambios en traducción con 2 columnas, al lado izquierdo el archivo original y al lado derecho los cambios introducidos.  
+
+Si deseas sugerir una mejora a la traducción en una línea, pulsa sobre el símbolo + que aparece a la dercha del número de línea cuando pasas con el cursor y escribe tu sugerencia en el espacio que se abre, puedes escribir tu sugerencia en español por cuanto será revisada por el autor de la solicitud de cambio que debe manejar el español.
+
+# 3. Problemas (Issues) relacionados con la traducción a español
+
+En las sección de problemas del repositorio de fuentes de FreeCodeCamp den github.com (https://github.com/FreeCodeCamp/FreeCodeCamp/issues) puede haber 2 tipos de solicitues relacionadas con traducciones de desafíos:
+* Unos para iniciar la traducción de uno de los archivos del directorio ```seeds/challenges```. Por ejemplo: https://github.com/FreeCodeCamp/FreeCodeCamp/issues/4544 Había muchos de estos cuando iniciamos al traducción a español y pueden aparecer algunos esporádicos cuando cambia el currículo. 
+* Otros que solicitan verificar y actualizar la traducción a español de alguno de los archivos del directorio seeds/challenges. Por ejemplo: https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6493  La idea es reabrir estos cuando se mejoran los archivos en inglés o si hay pendientes mejoras a la traducción a español.
+
+Puedes encontrar ambos tipos  buscando  ```spanish``` (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation+spanish ). 
+
+Cuando quieras trabajar en alguno de estos te invitamos a poner un comentario del estilo "Working on it" tras lo cual tendrás máximo 15 días para enviar una solicitud de cambio (Pull Request) que bien traduzca el archivo en mención o actualice su traducción a español.
+
+Te invitamos a familiarizarte con los directorios y archivos del directorio ```seeds/challenges``` en https://github.com/FreeCodeCamp/FreeCodeCamp/tree/staging/seed/challenges
+
+
+# 4. Procedimiento técnico para hacer una traducción
 
 * Instala git en tu computador y crea una cuenta en github.com 
 * Desde tu cuenta en github.com bifurca (*fork*) el repositorio de FreeCodeCamp (https://github.com/FreeCodeCamp/FreeCodeCamp), de manera que verás en tu cuenta un directorio FreeCodeCamp
@@ -28,7 +46,6 @@ git remote add upstream https://github.com/freecodecamp/freecodecamp.git
 git pull --rebase upstream staging
 git push origin staging
 ```
-*  Dirígete a la sección de problemas (*issues*) del repositorio oficial y busca spanish (i.e https://github.com/FreeCodeCamp/FreeCodeCamp/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atranslation+spanish). Ubica un problema en el que nadie está trabajando -o que lleva más de 2 semanas sin reportar avance-.  Podrás tomarlo añadiendo un comentario como “*Trabajando en este - Working on it*”.
 *  En tu bifurcación del repositorio, crea una rama con un nombre como “add/ES-translation-XXX” donde XXX es el nombre del archivo en el que vas a trabajar.  ([ayuda completa](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)):
 ```sh
 git checkout -b add/ES-translation-basic-javascript
@@ -48,12 +65,12 @@ Ten en cuenta que los lineamientos para efectuar la traducción han sido creados
 Otra forma en la que puedes colaborar es revisando y haciendo comentarios en los cambios empujados por otros traductores.
 
 
-# 3. Generalidades sobre la traducción
+# 5. Generalidades sobre la traducción
 
 Preferimos traducir con “tu” en lugar de “usted” y empleando términos ya usados en el español, dejando posibilidad de introducir nuevos términos preferiblemente de acuerdo a los lineamientos del capítulo 2 de https://mail.gnome.org/archives/gnome-es-list/2011-October/pdfm6xxph1jsZ.pdf
 
 
-# 4. Glosario
+# 6. Glosario
 
 *   array: vector o matriz
 *   camper: campista
@@ -68,16 +85,16 @@ Si deseas opinar o proponer traducciones para nuevos términos, emplea el canal 
 https://docs.google.com/spreadsheets/d/1c60Sl4MAAsZ7biCPgur7A4aVqhErIfwrE1SulPqbOGo/edit#gid=0
 
 
-# 5. Ayudas para traducir empleando Google Translator Toolkit 
+# 7. Ayudas para traducir empleando Google Translator Toolkit 
 
 Si quieres automatizar un poco más el procedimiento de traducción utilizando Google Translator Toolkit puede servirte: https://github.com/vtamara/fcc_trad
 
 
-# 6. Instancia de prueba para ver lo avanzado en la traducción a español
+# 8. Instancia de prueba para ver lo avanzado en la traducción a español
 
 Ver el resultado de tus esfuerzos mientras progresas te permite mantener la motivación. Por esta razón, se ha creado una instancia de prueba de la versión en español de FreeCodeCamp para que veas cómo luce la traducción incluyendo los últimos cambios que se han fusionado. Si deseas el detalle de cada desafío traducido hasta el momento, suscríbete e ingresa a: https://defensor.info:3000/map
 
-# 7. Referencias
+# 9. Referencias
 
 * Documentación inicial de las fuentes de FreeCodeCamp. https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/README.md
 * Localización de GNOME a español. https://mail.gnome.org/archives/gnome-es-list/2011-October/pdfm6xxph1jsZ.pdf
