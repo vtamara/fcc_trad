@@ -14,8 +14,26 @@ Many users go to the official translators chat room of FreeCodeCamp at https://g
 
 If you find it useful translate this instructions to your language and adapt them for your translation team (see for example original in spanish at: https://github.com/vtamara/fcc_trad/blob/master/Recomendaciones.md)
 
+# 2. Check the work of another translator
 
-# 2. Technical procedure to create a translated file
+When a translator completes or advances in translation he/she should send a pull request, that must be reviews by other peers.  The translator use to send a link to the pull request to the chat room.  If you see a message requesting review of a translation go the pull request and there in the tab "Files changed" you will be able to see the changes in the translation in two columns, to the left you will see the original file and to the right the changes proposed.
+
+If you want to suggest an improvement to the translation in one line, click on the + (plus sign) that appears next to the line number when you move the cursor over, in the dialog that pops up you can write your suggestion in the language of the translation.
+
+# 3. Issues related with the translation 
+
+In the section for issues of FreeCodeCamp in  github.com (https://github.com/FreeCodeCamp/FreeCodeCamp/issues) there can be 2 kind of requests related with the translation of the challenges:
+* To start the translation of one of the files in the directory ```seeds/challenges```. See for example: https://github.com/FreeCodeCamp/FreeCodeCamp/issues/4544   
+* Other issues requesting to verify or to update the translation of one the files in directory ```seeds/challenges```. For example: https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6493  These could be reopen when there is a change in a challenge.
+
+When you want to work on any of these, we invite you to write a comment like
+"Working on it," then you will have up to 15 days to send a pull request 
+with a translation or updating.
+
+We invite you to check the directories and files in  ```seeds/challenges``` for example at https://github.com/FreeCodeCamp/FreeCodeCamp/tree/staging/seed/challenges
+
+
+# 4. Technical procedure to create a translated file
 
 * Install git in your computer and create an account in github.com.
 * From your github.com account *fork* the FreeCodeCamp repository (https://github.com/FreeCodeCamp/FreeCodeCamp). A directory for the forked repository should appear in your account.
@@ -44,25 +62,25 @@ Take into account that this file has been created as we work on the translation 
 Another way to collaborate in the translation effort is by verifying the translations of other users and making comments in their pull requests.
 
 
-# 3. General guidelines
+# 5. General guidelines
 
 * Try not to be too formal yet not too casual, just to keep things friendly.
 * In order to make contents more understandable for native speakers of your target language (think of those who don't speak english), translate as much as you can, try to use a word in english only if it is already widely used in the countries where your target language is spoken.
 
 
-# 4. Glosary
+# 6. Glosary
 
 It is efficient if all the translators working on the same language create a glosary showing the translation of words in English employed in FreeCodeCamp's challenges. Sometimes there is more than one way of translating some terms, and regional differences might create confusion (for example, some terms might differ between Spanish from Spain and from Latin America, or between the French language employed in Canada and in France). 
 Be democratic! Choose the most appropriate translation by voting and keep a record of the results. One example of such record can be found here: https://docs.google.com/spreadsheets/d/1c60Sl4MAAsZ7biCPgur7A4aVqhErIfwrE1SulPqbOGo/edit#gid=0
 Use the chat room for discussing the glosary, so no one will miss anything.
 
 
-# 5. If you need some help with the Google Translator Toolkit 
+# 7. If you need some help with the Google Translator Toolkit 
 
 You may find help automating the translation process by employing the Google Translator Toolkit, please see: https://github.com/vtamara/fcc_trad
 
 
-# 6. Creating a test instance of FreeCodeCamp
+# 8. Creating a test instance of FreeCodeCamp
 
 Seeing the final product as you advance with the translation can help you to stay motivated. That's why it is a good idea to create a test instance of FreeCodeCamp where you can include the most recent changes of the translation of the language you're working on and use FreeCodeCamp including those changes. The following test instance was created for the Spanish version of FreeCodeCamp: https://defensor.info:3000/map
 In order to create a test instance, go through the following steps:
@@ -71,7 +89,7 @@ In order to create a test instance, go through the following steps:
 2. Follow the instructions of https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md be sure you can see a running instance in english
 3. Follow the changes shown in https://github.com/FreeCodeCamp/FreeCodeCamp/commit/d36e33f3938ddd079931a5fb2bc5dc6db37667e5 but instead of ```descriptionEs``` and ```nameEs``` use the keys of your language (e.g ```descriptonFr``` and ```nameFr```)
 
-# 7. References
+# 9. References
 
 * Documentation of the source code of FreeCodeCamp. https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/README.md
 * Pull Request Contribute https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Pull-Request-Contribute
