@@ -46,23 +46,32 @@ git remote add upstream https://github.com/freecodecamp/freecodecamp.git
 git pull --rebase upstream staging
 git push origin staging
 ```
-*  En tu bifurcación del repositorio, crea una rama con un nombre como “add/ES-translation-XXX” donde XXX es el nombre del archivo en el que vas a trabajar.  ([ayuda completa](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)):
+*  En tu bifurcación del repositorio, crea una rama con un nombre como “fix/ES-XXX” donde XXX es el nombre del archivo en el que vas a trabajar.  ([ayuda completa](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)):
 ```sh
-git checkout -b add/ES-translation-basic-javascript
+git checkout -b fix/ES-basic-javascript
 ```
-*  Ubica el archivo JSON en el directorio ```seeds/challenges``` de tu copia local. Ubica uno a uno los desafios no traducidos y modificalo agregando el nombre del desafio en ```"nameES"``` y su descripción en ```"descriptionES"```. Es importante que mantengas bien la sintaxis del JSON, puedes verificarlo instalando ```node.js``` y pasando el archivo JSON por el interprete, por ejemplo ```node seeds/challenges/basic-javascript.json```. También podrás verificar la sintaxis copiando y pegando el contenido del archivo en http://jsonlint.com.    Si piensas que no puedes continuar deja un comentario en el mismo problema indicándolo para que otra persona pueda continuar donde quedaste . 
-* Cuando termines consigna los cambios (*commit*) con una descripción en inglés, tras la descripción y como parte del mensaje de commit, añade "Closes #yyyy" donde yyyy es el número de problema asignado (Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal.).   Después empuja los cambios (*push*) a tu bifurcación (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
+*  Ubica el archivo JSON en el directorio ```seeds/challenges``` de tu copia local. Ubica uno a uno los desafios no traducidos y modificalo agregando el nombre del desafio en ```"nameES"``` y su descripción en ```"descriptionES"```. Es importante que mantengas bien la sintaxis del JSON, puedes verificarlo instalando ```node.js``` y pasando el archivo JSON por el interprete, por ejemplo ```node seeds/challenges/01-front-end-development-certification/basic-javascript.json```. También podrás verificar la sintaxis copiando y pegando el contenido del archivo en http://jsonlint.com.    Si piensas que no puedes continuar deja un comentario en el mismo problema indicándolo para que otra persona pueda continuar donde quedaste . 
+* Cuando termines consigna los cambios (*commit*) con una descripción en inglés y empujalos (*push*) a tu rama. Asegurate de dejar una sóla consignación para que pueda ser aceptado en fuentes de FCC (ver [ayuda completa](https://help.github.com/articles/pushing-to-a-remote/)):
 ```sh
-git commit seed/challenges/basic-javascript.json 
-git push origin add/ES-translation-basic-javascript
+git commit -m "Challenges of Basic Javascript translated" seed/challenges/01-front-end-development-certification/basic-javascript.json 
+git push origin fix/ES-translation-basic-javascript
 ```
-*  Después desde la página web de tu bifurcación en github.com, haz una solicitud de cambio (*pull request*) a la rama ```staging``` del repositorio principal (ver [ayuda completa](https://help.github.com/articles/creating-a-pull-request/)). Elimina la palabra "Closes #yyyy" del título de la solicitud de cambio, y muevela a la descripción de la solicitud de cambio.  
+*  Después desde la página web de tu bifurcación en github.com, haz una solicitud de cambio (*pull request*) a la rama ```staging``` del repositorio principal (ver [ayuda completa](https://help.github.com/articles/creating-a-pull-request/)). El titulo de la solicitud puede ser el mismo mensaje de la consignación.  En la descripción de la solicitud agrega "Closes #yyyy" donde yyyy es el número de problema asignado (Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal).   
 
-Otros traductores podrán ver tus cambios y hacer comentarios, los cuales puedes adoptar, o utilizar para hacer correcciones y volver a notificar y empujar. 
+Otros traductores podrán ver tus cambios y hacer comentarios, los cuales puedes adoptar, o utilizar para hacer correcciones en la misma rama que trabajaste. El procedimiento es:
+* ,  y volver a notificar y empujar. 
+* Asegurate de estar en la misma rama en la que trabajaste (podrás recordar el nombre mirando la solicitud de cambio o posiblemen con ```git branch```):
+```sh
+git checkout -b fix/ES-basic-javascript
+```
+* Haz los cambios que consideres oportunos en el archivo que trabajaste.
+* Actualiza el mensaje de la consignación (por ejemplo agradeciendo a quienes hayan corregido) y actualiza la solicitud de cambio:
+```sh
+git commit -a --amend
+git push -f origin fix/ES-basic-javascript
+```
 
 Ten en cuenta que los lineamientos para efectuar la traducción han sido creados mientras trabajamos en ella, así que necesariamente tendremos que hacer una revisión final una vez hayamos terminado con la traducción preliminar. Por lo tanto, si los comentarios que recibiste no reflejan un problema serio en tus cambios, puedes solicitar en el área de comentarios que se fusionen tus cambios, y efectuar las correcciones posteriormente.
-
-Otra forma en la que puedes colaborar es revisando y haciendo comentarios en los cambios empujados por otros traductores.
 
 
 # 5. Generalidades sobre la traducción
