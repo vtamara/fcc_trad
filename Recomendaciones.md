@@ -59,7 +59,6 @@ git push origin fix/ES-translation-basic-javascript
 *  Después desde la página web de tu bifurcación en github.com, haz una solicitud de cambio (*pull request*) a la rama ```staging``` del repositorio principal (ver [ayuda completa](https://help.github.com/articles/creating-a-pull-request/)). El titulo de la solicitud puede ser el mismo mensaje de la consignación.  En la descripción de la solicitud agrega "Closes #yyyy" donde yyyy es el número de problema asignado (Esto permite cerrar ese problema automáticamente cuando tu cambio sea fusionado con el repositorio principal).   
 
 Otros traductores podrán ver tus cambios y hacer comentarios, los cuales puedes adoptar, o utilizar para hacer correcciones en la misma rama que trabajaste. El procedimiento es:
-* ,  y volver a notificar y empujar. 
 * Asegurate de estar en la misma rama en la que trabajaste (podrás recordar el nombre mirando la solicitud de cambio o posiblemen con ```git branch```):
 ```sh
 git checkout -b fix/ES-basic-javascript
