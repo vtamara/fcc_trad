@@ -67,10 +67,11 @@ git checkout -b fix/ES-basic-javascript
 * Actualiza el mensaje de la consignación (por ejemplo agradeciendo a quienes hayan corregido) y actualiza la solicitud de cambio:
 ```sh
 git commit -a --amend
+# La anterior debió dejarte en un editor donde podrias mejorar titulo de la consignacion
 git push -f origin fix/ES-basic-javascript
 ```
 
-Ten en cuenta que los lineamientos para efectuar la traducción han sido creados mientras trabajamos en ella, así que necesariamente tendremos que hacer una revisión final una vez hayamos terminado con la traducción preliminar. Por lo tanto, si los comentarios que recibiste no reflejan un problema serio en tus cambios, puedes solicitar en el área de comentarios que se fusionen tus cambios, y efectuar las correcciones posteriormente.
+Ten en cuenta que estas recomendaciones para efectuar la traducción han sido creados mientras trabajamos en ella, así que necesariamente tendremos que hacer una revisión final una vez hayamos terminado con la traducción preliminar. Por lo tanto, si los comentarios que recibiste no reflejan un problema serio en tus cambios, puedes solicitar en el área de comentarios que se fusionen tus cambios, y efectuar las correcciones posteriormente.
 
 
 # 5. Generalidades sobre la traducción
