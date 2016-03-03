@@ -16,19 +16,19 @@ If you find it useful translate this instructions to your language and adapt the
 
 # 2. Check the work of another translator
 
-When a translator completes or advances in translation he/she should send a pull request, that must be reviews by other peers.  The translator use to send a link to the pull request to the chat room.  If you see a message requesting review of a translation go the pull request and there in the tab "Files changed" you will be able to see the changes in the translation in two columns, to the left you will see the original file and to the right the changes proposed.
-
+When a translator completes or advances in a translation he/she should send a pull request, that must be reviewed by another peer.  Translators use to send a link to the pull request to the chat room of the translation asking for reviews.  If you see a message requesting reviewal of a translation, go the pull request and there in the tab "Files changed" you will be able to see the changes in the translation in two columns, to the left you will see the original file and to the right the changes proposed.
+ 
 If you want to suggest an improvement to the translation in one line, click on the + (plus sign) that appears next to the line number when you move the cursor over, in the dialog that pops up you can write your suggestion in the language of the translation.
 
 # 3. Issues related with the translation 
 
 In the section for issues of FreeCodeCamp in  github.com (https://github.com/FreeCodeCamp/FreeCodeCamp/issues) there can be 2 kind of requests related with the translation of the challenges:
-* To start the translation of one of the files in the directory ```seeds/challenges```. See for example: https://github.com/FreeCodeCamp/FreeCodeCamp/issues/4544   
-* Other issues requesting to verify or to update the translation of one the files in directory ```seeds/challenges```. For example: https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6493  These could be reopen when there is a change in a challenge.
+* Some to start the translation of one of the files in the directory ```seeds/challenges```. See for example: https://github.com/FreeCodeCamp/FreeCodeCamp/issues/4544   
+* Other issues requesting to verify or to update an existing translation of one the files in directory ```seeds/challenges```. For example: https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6517 These could be reopened for example when there is a change in a challenge in english.
 
 When you want to work on any of these, we invite you to write a comment like
 "Working on it," then you will have up to 15 days to send a pull request 
-with a translation or updating.
+with a translation or updating an existing one.
 
 We invite you to check the directories and files in  ```seeds/challenges``` for example at https://github.com/FreeCodeCamp/FreeCodeCamp/tree/staging/seed/challenges
 
