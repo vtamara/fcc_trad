@@ -91,6 +91,7 @@ In order to create a test instance, go through the following steps:
 
 # 9. References
 
+* More help on translating the freecodecamp curriculum into another language. https://medium.com/@jonathangraham_/translating-the-curriculum-into-another-language-b5ddad26f923#.1vuboq8mf
 * Documentation of the source code of FreeCodeCamp. https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/README.md
 * Pull Request Contribute https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Pull-Request-Contribute
 * Help files for translating FreeCodeCamp's challenges and indications using Google Translator Toolkit. https://github.com/vtamara/fcc_trad/blob/master/README.md
