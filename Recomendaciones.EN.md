@@ -55,7 +55,7 @@ git push origin add/ES-translation-basic-javascript
 ```
 *  Afterwards, from the webpage of your fork in github.com, make a *pull request* to the branch called ```staging``` in the main repository (see the [help](https://help.github.com/articles/creating-a-pull-request/)). Delete the part that says "Closes #yyyy" from the title of the pull request, and move it to the description area.  
 
-Other translators will be able to see your changes and make comments, which you can discard, or use for making corrections and pushing them again. Be sure, to add some comments explaining the reason of your rejection or what changes you intend to accept. 
+Other translators will be able to see your changes and make comments, which you can discard, or use for making corrections and pushing them again. Be sure to add some comments explaining the reason of your rejection or what changes you intend to accept. 
 
 Take into account that this file has been created as we work on the translation itself, so many details have not been standardized yet. A final revision might be necessary in order to accomodate any changes made during the process. For this reason, if the comments you receive about your translation don't reflect a serious problem, you can ask in the comments section of the pull request for your changes to be merged, and make the necessary corrections later.
 
@@ -70,7 +70,7 @@ Another way to collaborate in the translation effort is by verifying the transla
 
 # 6. Glosary
 
-It is efficient if all the translators working on the same language create a glosary showing the translation of words in English employed in FreeCodeCamp's challenges. Sometimes there is more than one way of translating some terms, and regional differences might create confusion (for example, some terms might differ between Spanish from Spain and from Latin America, or between the French language employed in Canada and in France). 
+It is efficient if all the translators working on the same language create a glossary showing the translation of words in English employed in FreeCodeCamp's challenges. Sometimes there is more than one way of translating some terms, and regional differences might create confusion (for example, some terms might differ between Spanish from Spain and from Latin America, or between the French language employed in Canada and in France). 
 Be democratic! Choose the most appropriate translation by voting and keep a record of the results. One example of such record can be found here: https://docs.google.com/spreadsheets/d/1c60Sl4MAAsZ7biCPgur7A4aVqhErIfwrE1SulPqbOGo/edit#gid=0
 Use the chat room for discussing the glosary, so no one will miss anything.
 
@@ -91,6 +91,7 @@ In order to create a test instance, go through the following steps:
 
 # 9. References
 
+* More help on translating the freecodecamp curriculum into another language. https://medium.com/@jonathangraham_/translating-the-curriculum-into-another-language-b5ddad26f923#.1vuboq8mf
 * Documentation of the source code of FreeCodeCamp. https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/README.md
 * Pull Request Contribute https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Pull-Request-Contribute
 * Help files for translating FreeCodeCamp's challenges and indications using Google Translator Toolkit. https://github.com/vtamara/fcc_trad/blob/master/README.md
